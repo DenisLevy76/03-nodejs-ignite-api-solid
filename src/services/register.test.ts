@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import { RegisterUserService } from './registerUser.service'
-import { PrismaUsersRepository } from '@/repositories/prisma/prisma-users.repository'
+import { PrismaUsersRepository } from '@/repositories/prisma/prismaUsers.repository'
 import { compare } from 'bcryptjs'
 
 describe('Register service', () => {

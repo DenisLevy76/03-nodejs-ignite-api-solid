@@ -1,4 +1,4 @@
-import { IUsersRepository } from '@/repositories/users.repository'
+import { IUsersRepository } from '@/repositories/IUsers.repository'
 import { hash } from 'bcryptjs'
 import { EmailAlreadyExistsError } from './errors/emailAlreadyExists.error'
 import { User } from '@prisma/client'
