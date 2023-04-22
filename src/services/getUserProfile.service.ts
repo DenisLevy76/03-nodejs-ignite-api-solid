@@ -10,7 +10,7 @@ interface GetUserProfileServiceResponse {
 }
 
 export class GetUserProfileService {
-  constructor(private userRepository: IUsersRepository) { }
+  constructor(private userRepository: IUsersRepository) {}
   async execute({
     userId,
   }: GetUserProfileServiceRequest): Promise<GetUserProfileServiceResponse> {
